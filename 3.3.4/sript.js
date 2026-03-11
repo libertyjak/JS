@@ -3,7 +3,7 @@ let isAdmin = false;
  
 if (isLoggedIn) {
     console.log("Vítejte na stránce!")
-    if (isAdmin) {
+    if (isAdmin = true) {
         console.log("Přístup do panelu admin povolen")
     } else {
         console.log("Přístup jako uživatel povolen!")
